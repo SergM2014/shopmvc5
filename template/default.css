@@ -1,0 +1,298 @@
+@charset "utf-8";
+body{
+    height:100%;
+}
+
+/* General */
+#content{
+	min-height:400px;
+}
+#message_box{
+    width:350px;
+    height:100px;
+    display:none;
+    position:fixed;
+    border-radius:10px;
+    text-align:center;
+    vertical-align:middle;/*для дивов не работает*/
+    line-height:90px;
+    z-index:99;
+}
+
+/*Header*/
+header.site_header{
+	margin-top:10px;
+	background-repeat:no-repeat;
+	min-height: 100px;
+	padding:30px 0;
+	background-color: darksalmon;
+	border-radius: 10px;
+}
+
+/*navigation */
+.navbar-default{
+	margin-top:20px;
+}
+.breadcrumb{
+background-color:#FFFFFF;
+}
+
+
+/* menu setting */
+
+.menu_vert li{
+	width:180px;
+
+}
+
+
+#cart_res img{
+	width:50px;
+	height:50px;
+}
+
+/*Footer settings */
+
+footer.site_footer{
+
+	margin-top:20px;
+	min-height:100px;
+	background-color: darksalmon;
+	border-radius:10px;
+	padding:30px;
+}
+
+footer.site_footer h3{
+	text-align:center;
+
+}
+
+
+#carousel{
+	margin-bottom:25px;
+}
+
+#cart_res span{
+    color: #ff3d36;
+}
+
+.pics{
+    margin: 20px 20px;
+     border:3px solid #C0C0C0;
+    border-radius:10px;
+    max-width:500px;
+}
+
+#gallery{
+    margin-top:20px;
+}
+
+#order1{
+    display:none;
+}
+
+.remark{
+    color:red;
+}
+
+.tooltip-inner{
+    white-space:pre;
+}
+
+#feedback{
+    display:none;
+}
+.find_on_map {
+    display:none;
+}
+
+#mymap{
+    margin-bottom:20px;
+
+}
+
+ #search_res{
+	 right:0;
+	 position:absolute;
+	 width:400px;
+	 border:3px solid #C0C0C0;
+	 z-index:90;
+	 border-radius:10px;
+	 opacity:0.8;
+	 background-color:#E9E9E9;
+	 padding-left:5px;
+	 padding-bottom:15px;
+     transition-duration: 1500ms;
+ }
+
+ #search_res span{
+	cursor:pointer;
+ }
+ 
+ #show_res{
+	 position:absolute;
+	 opacity:0.9;
+	 top:200px;
+	 border:3px solid #C0C0C0;
+	 border-radius:15px;
+     min-height:300px;
+	 z-index:101;
+	 background-color:#9EE763;
+	 padding: 5px 5px 5px 5px;
+     transition:1s;
+ }
+ #show_res div.centered{
+     width:200px;
+     margin:0 auto;
+    background-color: #3cbe3a;
+ }
+ #show_res span img{
+	 width:50px;
+	 height:50px;
+	 margin-top:5px;
+	 margin-right:5px;
+	 }
+
+ul {
+
+list-style: square;/* url("sqpurple.gif");*/
+}
+
+.right{
+    float:right;
+}
+
+ #submit-btn, #reset-btn, #output {
+	margin-left:10px;
+}
+
+#output{
+	padding: 5px;
+	font-size: 12px;
+}
+
+#output img{
+	width:30px;
+	height:30px;
+}
+
+
+/* prograss bar */
+
+.progress{
+	position:relative;
+	width:400px;
+	border-radius: 3px;
+	margin: 10px;
+}
+.thumb {
+    height: 80px;
+	margin-bottom:5px;
+	margin-right:10px;
+	float:left;
+	border-radius: 3px;
+  }
+  
+#image_preview, #FileInput, #progressbox{
+  float:left;
+ /* margin-left:5px;*/
+ 
+  }
+
+#formUpload{
+    margin-bottom:60px;
+}
+
+#MyUploadForm{
+  margin-top:50px;
+  margin-left:20px;
+}
+
+#preview img{
+	border-radius:3px;
+	margin-bottom:15px;
+}
+
+#view img{
+	 border-radius:3px;
+	 margin-right:10px;
+}
+	
+#view{
+    border-radius:20px;
+    padding-left:10px;
+    padding-top:5px;
+    margin:10px 0;
+    background-color: #6dc0ad;
+}
+
+#view li span{
+    cursor:pointer;
+}
+.wrapgood{
+    padding-left:15px;
+    margin-top:30px;
+    border-bottom: 1px solid #101010;
+}
+.wrapgood:last-of-type {
+    border-bottom: 2px solid #d2171f;
+}
+.wrapgood img{
+    max-width:300px;
+    border-radius:10px;
+}
+
+#not_founded{
+    text-align: center;
+    margin-top:50px;
+}
+.product{
+    padding-bottom: 30px;
+    border-bottom:2px solid #9f2023;
+}
+
+.container{
+    position:relative;
+}
+
+.centered{
+    text-align: center;
+}
+.item.active img{
+    width:100%;
+    min-height:440px;
+    max-height:450px;
+}
+
+#gallery_div{
+    position:relative;
+}
+
+#menu_button, #menu_button_hide {
+    position: absolute;
+    top: 10px;
+    left:40px;
+    z-index: 100;
+}
+@media (max-width:768px){
+
+    #menu {
+    position:absolute !important;
+    left:-220px;
+    top:50px;
+    z-index:100;
+    transition:left 2s ease-out 0.5s;
+}
+    .show_menu{
+        left:20px!important;
+        top:50px!important;
+    }
+}
+
+@media(max-width:400px){
+    #search_res{
+        width:95%;
+    }
+
+
+}

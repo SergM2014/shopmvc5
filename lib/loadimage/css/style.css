@@ -1,0 +1,80 @@
+ input[type=file] {
+	padding: 6px;
+	background: #FFF;
+	border-radius: 5px;
+}
+
+ #submit-btn, #reset-btn, #output {
+	margin-left:10px;
+	float:right;
+}
+
+#output{
+	padding: 5px;
+	font-size: 12px;
+
+}
+
+#output img{
+	width:30px;
+	height:30px;
+}
+
+
+/* prograss bar */
+
+#progressbox {
+	border: 1px solid #CAF2FF;
+	padding: 1px; 
+	position:relative;
+	width:400px;
+	border-radius: 3px;
+	margin: 10px;
+	display:none;
+	text-align:left;
+}
+#progressbar {
+	height:20px;
+	border-radius: 3px;
+	background-color: #CAF2FF;
+	width:1%;
+}
+#status {
+	top:3px;
+	left:50%;
+	position:absolute;
+	display:inline-block;
+	color: #FFFFFF;
+}
+
+  .thumb {
+    height: 118px;
+   /* border: 1px solid #000;*/
+    /*margin: 10px 5px 0 0;*/
+	margin-bottom:5px;
+	float:left;
+	border-radius: 3px;
+  }
+  #submit-btn, #reset-btn{
+  display:none;
+  }
+  
+  #image_preview, #FileInput, #progressbox{
+  float:left;
+ /* margin-left:5px;*/
+ 
+  }
+  
+  #MyUploadForm{
+  margin-top:50px;
+  margin-left:20px;
+  /* border: 1px solid #000;*/
+  /* height:100%;*/
+  }
+  
+  #for_add{
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	background-color:#E2E2E2;
+  }

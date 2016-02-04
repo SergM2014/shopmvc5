@@ -1,0 +1,36 @@
+.menu_vert ul li ul{
+display:none;
+}
+
+.menu_vert .item {
+
+border: 1px solid green;
+width:170px;
+margin:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+padding:3px;
+text-align:center;
+background-color:#C8B4DE;
+}
+.menu_vert .siblingshide{
+display:none;
+}
+.menu_vert .childrenshow{
+display:block;
+}
+.menu_vert .active{
+font-weight: bold;
+}
+.menu_vert ul{
+ list-style-type: none;
+ padding:0px;
+ 
+ }
+ .menu_vert .childrenshow .item{
+ background-color:#E7FFCE;
+ }
+ .menu_vert .childrenshow .item:nth-child(even){
+ background-color:#C8B4DE;
+ }

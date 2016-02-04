@@ -1,0 +1,321 @@
+body{
+ height:100%;
+}
+
+
+
+.info-menu button{
+	margin-left:10px;
+}
+.container{
+
+    min-height:100%;
+	background-color:#FFCACA;
+
+	}
+
+#admincontent{
+
+	padding-top:50px;
+}
+
+#category-tree  li {
+ list-style: none;
+  padding: 4px 0 6px 0;
+}
+
+ #manufacturer-tree li{
+  line-height: 18px;
+  list-style: none;
+  padding: 4px 0 6px 30px;
+}	
+
+
+#contextMenu {
+  background: #ECF26F;
+  width:220px;
+  border: 1px solid gray;
+  display:none;
+  margin:0px;
+  padding:5px;
+  z-index:90;
+  border-radius: 6px;
+  opacity:0.8;
+}
+#contextMenu li{
+  width:100%;
+  cursor:hand;
+  cursor:pointer;
+  list-style:none;
+  margin:0px;
+  padding:2px 0px;
+}
+#contextMenu li a{
+  color: gray;
+  text-decoration: none;
+}
+
+#contextMenu ul{
+  margin:0px;
+  padding:0px;
+}
+
+#contextMenu li:hover{
+  background: #ccccc6;
+  width:100%;
+  cursor:hand;
+  cursor:pointer;
+}
+header.category-header, header.manufacturer-header{
+    margin-bottom:15px;
+}
+#category-tree a , #manufacturer-tree a{
+	width:200px;
+}
+ #message_box{
+	  width:350px;
+	  height:100px;
+	  display:none;
+	  padding-top:30px;
+      border-radius: 10px;
+      text-align:center;
+  
+ }
+
+ #edit_manufacturer{
+	margin-top:50px;
+ }
+
+header.manufacturer-header a, #goodsmenu a{
+	font-size:18px;
+}
+
+#add_good {
+	padding-bottom:20px;
+	padding-right:10px;
+	font-size:18px;
+}
+
+#for_add{
+	margin-top:29px;
+    margin-bottom:20px;
+	border-radius:10px;
+	background-color:#E2E2E2;
+}
+
+.files{
+background-color:white;
+}
+
+#message_box{
+z-index:100;
+}
+
+.remark{
+color:red;
+
+}
+
+ #submit-btn, #reset-btn, #output {
+	margin-left:10px;
+	float:right;
+}
+
+#output{
+	padding: 5px;
+	font-size: 12px;
+
+}
+
+#output img{
+	width:30px;
+	height:30px;
+}
+.table-responsive{
+    margin-top:20px;
+
+}
+.table-responsive select{
+font-size:10px;
+}
+
+/* prograss bar */
+
+.progress{
+	position:relative;
+	width:400px;
+	border-radius: 3px;
+	margin: 10px;
+	display:none;
+}
+  .thumb {
+    height: 118px;
+   /* border: 1px solid #000;*/
+    /*margin: 10px 5px 0 0;*/
+	margin-bottom:5px;
+	margin-right:10px;
+	float:left;
+	border-radius: 3px;
+  }
+    .thumb2 {
+    height: 150px;
+   /* border: 1px solid #000;*/
+    /*margin: 10px 5px 0 0;*/
+	margin-bottom:5px;
+	margin-right:10px;
+	float:left;
+	border-radius: 3px;
+  }
+  
+  #submit-btn, #reset-btn ,#reset-btn-slider{
+  display:none;
+  }
+  
+  #image_preview, #FileInput, #progressbox{
+  float:left;
+ /* margin-left:5px;*/
+ 
+  }
+  
+  #MyUploadForm {
+  margin-top:50px;
+  margin-left:20px;
+}
+
+.slider{
+	height:150px;
+	max-width:250px;
+}
+#edit_password{
+	display:none;
+}
+
+body{	
+	background-color:#F6F6F6;
+}
+
+#header h2{
+	margin-left:70px;	
+}
+
+.site-menu ul li{
+ float: left;
+   margin-left: 25px;	
+}
+
+.user{
+	float:right;
+	margin-right:25px;	
+}
+
+#login{	
+	background-color:#CCC;
+	margin:0 auto;
+	width:350px;
+margin-top: 150px;	
+}
+
+.login_form h3, #add_slide{
+text-align:center;	
+}
+
+#wrapper{
+	margin:0 auto;
+	width: 85%;
+	min-width: 700px;
+}
+#header{
+	background-repeat:no-repeat;
+	height: 60px;
+	padding:20px 30px 20px 30px;
+	background-color: darksalmon;
+	-moz-border-radius: 10px;
+	-webkit-border-radius:10px;
+	border-radius: 10px;	
+}
+
+
+#preview
+{
+color:#cc0000;
+font-size:12px
+}
+
+
+#imageloadstatus{
+display:none;	
+}
+
+
+
+#show_user_res{
+display:none;	
+}
+
+
+
+#footer{
+	clear:both;
+	padding: 10px 20px;
+	background-color: darksalmon;
+	border-radius:10px;
+}
+
+ #add_category_form, #add_manufacturer_form{		
+display:none;	
+}
+ #add_user_form,  #show_users{
+	
+	margin:0 auto;
+	width:90%;		
+}
+
+#add_good_form, #update_good_form, #update_user, #show_slider, #update_slide_form, #show_carousel, 
+ #usermenu,   #show_about{
+	margin:0 auto;
+	width:90%;		
+}
+
+#form1{
+    margin:20px 0;
+}
+
+
+.new_image{
+	float:left;
+	width:190px;
+	min-height:200px;
+	margin:20 20 20 0;
+	display:none;
+	border:1px solid #000;	
+}
+.new_image img{
+	width:190px;
+	min-height:200px;	
+}
+
+#image__1{
+	display:block;	
+}
+.small_pict, #create_image img{
+	width:170px;	
+	height:100px;
+}
+
+#add_slide_img{
+	margin-top:50px;	
+	
+}
+#create_new_good{
+   margin-left:auto;
+   margin-right:auto;
+ }
+
+ 
+#show_about p{
+margin-left:50px;
+margin-top:30px;
+}
+#changeabout{
+	margin-left:50px;
+}

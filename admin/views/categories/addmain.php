@@ -1,0 +1,1 @@
+<li>   <a class="btn btn-default" rel="CategoryTree" data-id="<?php echo $id ?>" data-parent_id="0"><?php echo $_POST['create_category'] ?></a></li>
