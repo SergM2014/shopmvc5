@@ -23,8 +23,8 @@
 	        }
 	//блок который просматривает адрес и отбрасывает от него $_GET переменные
 	            foreach ($url as $key=> $value){
-				$find=strpos($value, '?');
-				if($find==true){
+				$find=stripos($value, '?');
+				if($find!==false){
 				$arr=explode('?',$url[$key]);
 				$url[$key]=$arr[0];
 				}
